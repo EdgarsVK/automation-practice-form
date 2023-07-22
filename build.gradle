@@ -15,6 +15,11 @@ dependencies {
             'org.junit.jupiter:junit-jupiter:5.9.3'
     )
 }
+dependencies {
+    // Other dependencies...
+    implementation 'com.codeborne:selenide:5.25.0' // Replace with the appropriate version of Selenide
+}
+
 
 test {
     useJUnitPlatform()
